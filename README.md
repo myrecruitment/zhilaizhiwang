@@ -170,7 +170,7 @@
         
         <h1>即将跳转到 WhatsApp 咨询</h1>
         
-        <div class="countdown" id="countdown">2</div>
+        <div class="countdown" id="countdown">1</div>
         
         <div class="consent-box">
             <p>请仔细阅读并同意以下条款：</p>
@@ -205,7 +205,7 @@
         const continueBtn = document.getElementById('continueBtn');
         const statusText = document.getElementById('statusText');
         
-        let countdown = 2;
+        let countdown = 1;
         let countdownInterval;
         let hasRedirected = false;
         
