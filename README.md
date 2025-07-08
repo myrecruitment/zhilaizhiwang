@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -177,42 +177,6 @@
             opacity: 0.9;
         }
 
-        .success-stories {
-            background: #f0fff4;
-            border: 1px solid #9ae6b4;
-            border-radius: 12px;
-            padding: 20px;
-            margin-bottom: 25px;
-            text-align: left;
-        }
-
-        .success-stories h4 {
-            color: #22543d;
-            font-size: 16px;
-            margin-bottom: 12px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .testimonial {
-            background: white;
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 10px;
-            font-size: 14px;
-            color: #2d3748;
-            position: relative;
-            border-left: 3px solid #48bb78;
-        }
-
-        .testimonial-author {
-            font-size: 12px;
-            color: #718096;
-            margin-top: 8px;
-            font-weight: 600;
-        }
-
         .cta-section {
             margin-bottom: 25px;
         }
@@ -265,67 +229,6 @@
             cursor: not-allowed;
         }
 
-        .job-details {
-            background: #f8fafc;
-            border-radius: 16px;
-            padding: 25px;
-            margin-bottom: 25px;
-            text-align: left;
-        }
-
-        .job-details h3 {
-            color: #2d3748;
-            font-size: 18px;
-            margin-bottom: 20px;
-            text-align: center;
-            font-weight: 700;
-        }
-
-        .requirement-grid {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 15px;
-            margin-bottom: 20px;
-        }
-
-        .requirement-section {
-            background: white;
-            padding: 18px;
-            border-radius: 12px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-        }
-
-        .requirement-section h4 {
-            color: #667eea;
-            font-size: 15px;
-            margin-bottom: 10px;
-            font-weight: 600;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .requirement-list {
-            list-style: none;
-            padding: 0;
-        }
-
-        .requirement-list li {
-            color: #4a5568;
-            font-size: 13px;
-            margin-bottom: 6px;
-            padding-left: 18px;
-            position: relative;
-        }
-
-        .requirement-list li::before {
-            content: '✓';
-            position: absolute;
-            left: 0;
-            color: #48bb78;
-            font-weight: bold;
-        }
-
         .urgency-note {
             background: linear-gradient(135deg, #fed7d7, #fbb6ce);
             color: #c53030;
@@ -353,46 +256,6 @@
         @keyframes urgencyShine {
             0% { left: -100%; }
             100% { left: 100%; }
-        }
-
-        .social-proof {
-            background: #f7fafc;
-            border-radius: 12px;
-            padding: 20px;
-            margin-bottom: 25px;
-            text-align: center;
-        }
-
-        .social-proof h4 {
-            color: #2d3748;
-            font-size: 16px;
-            margin-bottom: 15px;
-            font-weight: 600;
-        }
-
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 15px;
-        }
-
-        .stat-item {
-            background: white;
-            padding: 15px 10px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-        }
-
-        .stat-number {
-            font-size: 20px;
-            font-weight: 700;
-            color: #667eea;
-            margin-bottom: 4px;
-        }
-
-        .stat-label {
-            font-size: 11px;
-            color: #718096;
         }
 
         .status {
@@ -518,11 +381,6 @@
                 font-size: 28px;
             }
 
-            .stats-grid {
-                grid-template-columns: 1fr;
-                gap: 10px;
-            }
-
             .trust-indicators {
                 gap: 8px;
             }
@@ -569,97 +427,20 @@
             </div>
         </div>
 
+        <!-- 唯一的CTA按钮 -->
+        <div class="cta-section">
+            <button class="cta-button whatsapp-btn" data-source="highlights-section">
+                💬 立即咨询详情
+            </button>
+        </div>
+
         <div class="salary-highlight">
             <div class="salary-amount">RM 6,500</div>
             <div class="salary-desc">平均月收入 • 多劳多得 • 上不封顶</div>
         </div>
 
-        <!-- 成功案例 -->
-        <div class="success-stories">
-            <h4>💡 成功案例分享</h4>
-            <div class="testimonial">
-                "我是两个孩子的妈妈，在家工作让我能兼顾家庭，现在月收入稳定在RM7000+，非常感谢这个机会！"
-                <div class="testimonial-author">— 林清慧，宝妈，工作8个月</div>
-            </div>
-            <div class="testimonial">
-                "幸亏遇到这份兼职工作，让我经济不再那么压力，现在还完房贷、车贷有多余的闲钱去旅行"
-                <div class="testimonial-author">— Wendy Ng，上班族，工作6个月</div>
-            </div>
-        </div>
-
-        <!-- 第一个CTA按钮 -->
-        <div class="cta-section">
-            <button class="cta-button whatsapp-btn" data-source="salary-section">
-                💬 立即咨询详情
-            </button>
-        </div>
-
-        <!-- 社会证明 -->
-        <div class="social-proof">
-            <h4>📊 真实数据展示</h4>
-            <div class="stats-grid">
-                <div class="stat-item">
-                    <div class="stat-number">500+</div>
-                    <div class="stat-label">成功入职</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number">95%</div>
-                    <div class="stat-label">满意度</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number">RM6.5K</div>
-                    <div class="stat-label">平均收入</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="job-details">
-            <h3>📋 岗位详情</h3>
-            
-            <div class="requirement-grid">
-                <div class="requirement-section">
-                    <h4>🎯 工作内容</h4>
-                    <ul class="requirement-list">
-                        <li>客户咨询回复与跟进</li>
-                        <li>酒店预订处理与确认</li>
-                        <li>简单的文档整理工作</li>
-                        <li>协助团队日常事务</li>
-                    </ul>
-                </div>
-                
-                <div class="requirement-section">
-                    <h4>✅ 岗位要求</h4>
-                    <ul class="requirement-list">
-                        <li>年龄25-60岁，女性</li>
-                        <li>熟悉手机/电脑基本操作</li>
-                        <li>有责任心，沟通能力佳</li>
-                        <li>每天能投入3-4小时</li>
-                        <li>中文流利即可</li>
-                    </ul>
-                </div>
-
-                <div class="requirement-section">
-                    <h4>🎁 我们提供</h4>
-                    <ul class="requirement-list">
-                        <li><strong>完整培训体系：</strong>入职培训+实操指导+持续学习</li>
-                        <li><strong>弹性工作安排：</strong>自由选择工作时间地点，兼顾生活</li>
-                        <li><strong>稳定收入保障：</strong>按完成量计算+额外奖金提成</li>
-                        <li><strong>职业发展机会：</strong>表现优秀可晋升为团队主管</li>
-                        <li><strong>员工福利：</strong>EPF & Socso+年度旅游津贴</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
         <div class="urgency-note">
             🔥 限时招聘：本月仅招收15名，已有8人确认面试，剩余名额有限！
-        </div>
-
-        <!-- 第二个CTA按钮 -->
-        <div class="cta-section">
-            <button class="cta-button whatsapp-btn" data-source="details-section">
-                💬 立即预约面试
-            </button>
         </div>
 
         <div class="trust-indicators">
