@@ -559,12 +559,12 @@
         'https://connect.facebook.net/en_US/fbevents.js');
 
         // Facebook Pixel 初始化
-        fbq('init', '623059780216649'); 
+        fbq('init', '1412950766622012'); 
         fbq('track', 'PageView');
     </script>
     <noscript>
         <img height="1" width="1" style="display:none" 
-             src="https://www.facebook.com/tr?id=623059780216649&ev=PageView&noscript=1"/>
+             src="https://www.facebook.com/tr?id=1412950766622012&ev=PageView&noscript=1"/>
     </noscript>
 
     <script>
